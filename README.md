@@ -1,0 +1,1 @@
+# nemo-open-with-vscode

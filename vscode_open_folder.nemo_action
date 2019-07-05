@@ -1,0 +1,27 @@
+[Nemo Action]
+
+Active=true
+
+Name=Open folder in VSCode
+Name[pt_BR]=Abrir pasta no VSCode
+
+Comment=Opens current folder in Visual Studio Code
+Comment[pt_BR]=Abre a pasta atual no Visual Studio Code
+
+Exec=code %P
+
+#If the icon is incorrect, change to another icon (just comment last line and uncomment one of the below)
+#Icon-Name=code
+#Icon-Name=visualstudiocode
+Icon-Name=com.visualstudio.code
+
+#Specify that is an "background click"
+Selection=none
+
+#Specify that need to be a folder or a directory
+#Extensions=any;
+Mimetypes=inode/directory;
+
+Quote=double
+Dependencies=code;
+

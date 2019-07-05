@@ -1,0 +1,26 @@
+[Nemo Action]
+
+Active=true
+
+Name=Open files with VSCode
+Name[pt_BR]=Abrir arquivos com o VSCode
+
+Comment=Opens selected files with Visual Studio Code
+Comment[pt_BR]=Abre os arquivos selecionados com o Visual Studio Code
+
+Exec=code %F
+
+#If the icon is incorrect, change to another icon (just comment last line and uncomment one of the below)
+#Icon-Name=code
+#Icon-Name=visualstudiocode
+Icon-Name=com.visualstudio.code
+
+#Specify that multiple files may be selected
+Selection=m
+
+#Specify that need to be a plain text file
+Mimetypes=text/plain;
+
+Quote=double
+Dependencies=code;
+

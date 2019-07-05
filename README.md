@@ -12,3 +12,5 @@ Just save the following files inside  `~/.local/share/nemo/actions/` to add "Ope
 ![](running-example.gif)
 
 Take this as inspiration and create your own scripts and actions.
+
+**PS**: There is a Nemo's bug, where, when you open a folder, the selection in previous folder "don't go away", and then you'll see an "open selected folder in VSCode" message when clicking on the folder's background. I'll already open an issue on Nemo's repository: https://github.com/linuxmint/nemo/issues/2167
